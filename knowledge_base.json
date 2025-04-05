@@ -1,0 +1,67 @@
+{
+  "products": [
+    {
+      "id": "p001",
+      "name": "ノートパソコン",
+      "price": 120000,
+      "specs": {
+        "cpu": "Intel Core i7",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "display": "15.6インチ"
+      },
+      "inStock": true,
+      "categories": ["電子機器", "コンピュータ"]
+    },
+    {
+      "id": "p002",
+      "name": "スマートフォン",
+      "price": 85000,
+      "specs": {
+        "cpu": "A15 Bionic",
+        "ram": "6GB",
+        "storage": "128GB",
+        "display": "6.1インチ"
+      },
+      "inStock": true,
+      "categories": ["電子機器", "モバイル"]
+    },
+    {
+      "id": "p003",
+      "name": "ワイヤレスヘッドフォン",
+      "price": 25000,
+      "specs": {
+        "type": "オーバーイヤー",
+        "batteryLife": "30時間",
+        "noiseCancel": true
+      },
+      "inStock": false,
+      "categories": ["電子機器", "オーディオ"]
+    }
+  ],
+  "faq": [
+    {
+      "question": "返品ポリシーはどうなっていますか？",
+      "answer": "商品到着後14日以内であれば、未使用の商品は全額返金で返品可能です。"
+    },
+    {
+      "question": "配送にはどのくらい時間がかかりますか？",
+      "answer": "通常、注文確定後2〜3営業日以内に発送されます。"
+    },
+    {
+      "question": "国際配送は行っていますか？",
+      "answer": "はい、国際配送を承っております。ただし、国によって配送料と配送時間が異なります。"
+    }
+  ],
+  "company": {
+    "name": "テックショップ株式会社",
+    "founded": 2010,
+    "locations": ["東京", "大阪", "福岡"],
+    "employees": 120,
+    "contactInfo": {
+      "email": "info@techshop.example.com",
+      "phone": "03-1234-5678",
+      "address": "東京都渋谷区テック通り1-2-3"
+    }
+  }
+}
